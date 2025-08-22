@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-body">
+        <div class="theme-switcher">
+            <label for="theme">Light/Dark Mode:</label>
+            <input type="checkbox" id="theme" name="theme">
+        </div>
+        <div class="wrapper">
+            <div id="result">0</div>
+            <div class="buttons">
+                <button class="dark operator" data-action="left-parenthesis">(</button>
+                <button class="dark operator" data-action="right-parenthesis">)</button>
+                <button class="dark operator" data-action="mc">MC</button>
+                <button class="dark operator" data-action="m-plus">M+</button>
+                <button class="dark operator" data-action="m-minus">M-</button>
+                <button class="dark operator" data-action="mr">MR</button>
+                <button class="dark operator" data-action="clear">AC</button>
+                <button class="dark operator" data-action="sign">+/-</button>
+                <button class="dark operator" data-action="percent">%</button>
+                <button class="orange operator" data-action="divide">÷</button>
+
+                <button class="dark operator" data-action="2nd">2nd</button>
+                <button class="dark operator" data-action="square">x²</button>
+                <button class="dark operator" data-action="cube">x³</button>
+                <button class="dark operator" data-action="powy">xʸ</button>
+                <button class="dark operator" data-action="epowx">eˣ</button>
+                <button class="dark operator" data-action="10powx">10ˣ</button>
+                <button class="light" data-number="7">7</button>
+                <button class="light" data-number="8">8</button>
+                <button class="light" data-number="9">9</button>
+                <button class="orange operator" data-action="multiply">×</button>
+
+                <button class="dark operator" data-action="reciprocal">1/x</button>
+                <button class="dark operator" data-action="sqrt">²√x</button>
+                <button class="dark operator" data-action="cbrt">³√x</button>
+                <button class="dark operator" data-action="yrtx">ʸ√x</button>
+                <button class="dark operator" data-action="ln">ln</button>
+                <button class="dark operator" data-action="log10">log₁₀</button>
+                <button class="light" data-number="4">4</button>
+                <button class="light" data-number="5">5</button>
+                <button class="light" data-number="6">6</button>
+                <button class="orange operator" data-action="subtract">-</button>
+
+                <button class="dark operator" data-action="factorial">x!</button>
+                <button class="dark operator" data-action="sin">sin</button>
+                <button class="dark operator" data-action="cos">cos</button>
+                <button class="dark operator" data-action="tan">tan</button>
+                <button class="dark" data-number="e">e</button>
+                <button class="dark operator" data-action="ee">EE</button>
+                <button class="light" data-number="1">1</button>
+                <button class="light" data-number="2">2</button>
+                <button class="light" data-number="3">3</button>
+                <button class="orange operator" data-action="add">+</button>
+                
+                <button class="dark operator" data-action="rad">Rad</button>
+                <button class="dark operator" data-action="sinh">sinh</button>
+                <button class="dark operator" data-action="cosh">cosh</button>
+                <button class="dark operator" data-action="tanh">tanh</button>
+                <button class="dark" data-number="pi">π</button>
+                <button class="dark operator" data-action="rand">Rand</button>
+                <button class="light zero" data-number="0">0</button>
+                <button class="light" data-number=".">.</button>
+                <button class="orange calculate" data-action="calculate">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
