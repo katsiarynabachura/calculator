@@ -49,3 +49,7 @@ The project files are organized into the following directories:
     * `style.css`: The main stylesheet for the application.
 
 * **/tests/**: Contains all unit tests for the project. Currently, it tests the `CustomMath.js` library to ensure calculation accuracy.
+
+---
+## 4. Deploy
+[Calculator app deploy](https://calculator-extended-app.netlify.app/)
