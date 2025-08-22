@@ -5,7 +5,7 @@ This is an advanced calculator application built with modern JavaScript. It uses
 ---
 ## 1. Task
 The full task description can be found at the following link: 
-*_[Calculator app](https://github.com/katsiarynabachura/calculator)_*
+[Calculator app](https://github.com/katsiarynabachura/calculator)
 
 ---
 ## 2. How to Run the App
